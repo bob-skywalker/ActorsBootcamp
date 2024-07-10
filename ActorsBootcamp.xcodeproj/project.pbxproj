@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C1E11F52C38A98F00EA6EC4 /* PhotoPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E11F42C38A98F00EA6EC4 /* PhotoPickerBootcamp.swift */; };
+		5C1E11F72C38B7B800EA6EC4 /* AsyncStreamBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E11F62C38B7B800EA6EC4 /* AsyncStreamBootcamp.swift */; };
+		5C1E11F92C38CAE700EA6EC4 /* ObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E11F82C38CAE700EA6EC4 /* ObservableBootcamp.swift */; };
+		5CC0B2252C3F01D700B4DE5D /* LikeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0B2242C3F01D700B4DE5D /* LikeButtonView.swift */; };
 		5CD7E8982C320E8E000409C1 /* ActorsBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7E8972C320E8E000409C1 /* ActorsBootcampApp.swift */; };
 		5CD7E89A2C320E8E000409C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7E8992C320E8E000409C1 /* ContentView.swift */; };
 		5CD7E89C2C320E8F000409C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD7E89B2C320E8F000409C1 /* Assets.xcassets */; };
 		5CD7E89F2C320E8F000409C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD7E89E2C320E8F000409C1 /* Preview Assets.xcassets */; };
+		5CD7E8A62C320EE0000409C1 /* ActorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7E8A52C320EE0000409C1 /* ActorsBootcamp.swift */; };
+		5CD7E8A82C3222FE000409C1 /* GlobalActorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7E8A72C3222FE000409C1 /* GlobalActorBootcamp.swift */; };
+		5CF119032C33460B008C0877 /* SendableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF119022C33460B008C0877 /* SendableBootcamp.swift */; };
+		5CF119052C33609F008C0877 /* AsyncPublisherBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF119042C33609F008C0877 /* AsyncPublisherBootcamp.swift */; };
+		5CF119072C3480EA008C0877 /* StrongSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF119062C3480EA008C0877 /* StrongSelfBootcamp.swift */; };
+		5CF119092C348ED8008C0877 /* MVVMBootcamp.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5CF119082C348ED8008C0877 /* MVVMBootcamp.metal */; };
+		5CF1190B2C348EE1008C0877 /* MVVMBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF1190A2C348EE1008C0877 /* MVVMBootcamp.swift */; };
+		5CF1190D2C349958008C0877 /* RefreshableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF1190C2C349958008C0877 /* RefreshableBootcamp.swift */; };
+		5CF1190F2C3527DA008C0877 /* SearchableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF1190E2C3527DA008C0877 /* SearchableBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C1E11F42C38A98F00EA6EC4 /* PhotoPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerBootcamp.swift; sourceTree = "<group>"; };
+		5C1E11F62C38B7B800EA6EC4 /* AsyncStreamBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStreamBootcamp.swift; sourceTree = "<group>"; };
+		5C1E11F82C38CAE700EA6EC4 /* ObservableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBootcamp.swift; sourceTree = "<group>"; };
+		5CC0B2242C3F01D700B4DE5D /* LikeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonView.swift; sourceTree = "<group>"; };
 		5CD7E8942C320E8E000409C1 /* ActorsBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActorsBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD7E8972C320E8E000409C1 /* ActorsBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsBootcampApp.swift; sourceTree = "<group>"; };
 		5CD7E8992C320E8E000409C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5CD7E89B2C320E8F000409C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CD7E89E2C320E8F000409C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CD7E8A52C320EE0000409C1 /* ActorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsBootcamp.swift; sourceTree = "<group>"; };
+		5CD7E8A72C3222FE000409C1 /* GlobalActorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorBootcamp.swift; sourceTree = "<group>"; };
+		5CF119022C33460B008C0877 /* SendableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableBootcamp.swift; sourceTree = "<group>"; };
+		5CF119042C33609F008C0877 /* AsyncPublisherBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherBootcamp.swift; sourceTree = "<group>"; };
+		5CF119062C3480EA008C0877 /* StrongSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongSelfBootcamp.swift; sourceTree = "<group>"; };
+		5CF119082C348ED8008C0877 /* MVVMBootcamp.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MVVMBootcamp.metal; sourceTree = "<group>"; };
+		5CF1190A2C348EE1008C0877 /* MVVMBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBootcamp.swift; sourceTree = "<group>"; };
+		5CF1190C2C349958008C0877 /* RefreshableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableBootcamp.swift; sourceTree = "<group>"; };
+		5CF1190E2C3527DA008C0877 /* SearchableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +61,16 @@
 		5CD7E88B2C320E8E000409C1 = {
 			isa = PBXGroup;
 			children = (
+				5CC0B2242C3F01D700B4DE5D /* LikeButtonView.swift */,
+				5C1E11F42C38A98F00EA6EC4 /* PhotoPickerBootcamp.swift */,
+				5C1E11F62C38B7B800EA6EC4 /* AsyncStreamBootcamp.swift */,
+				5C1E11F82C38CAE700EA6EC4 /* ObservableBootcamp.swift */,
+				5CF1190E2C3527DA008C0877 /* SearchableBootcamp.swift */,
+				5CF119062C3480EA008C0877 /* StrongSelfBootcamp.swift */,
+				5CF1190A2C348EE1008C0877 /* MVVMBootcamp.swift */,
+				5CF1190C2C349958008C0877 /* RefreshableBootcamp.swift */,
+				5CF119082C348ED8008C0877 /* MVVMBootcamp.metal */,
+				5CF119042C33609F008C0877 /* AsyncPublisherBootcamp.swift */,
 				5CD7E8962C320E8E000409C1 /* ActorsBootcamp */,
 				5CD7E8952C320E8E000409C1 /* Products */,
 			);
@@ -51,10 +87,13 @@
 		5CD7E8962C320E8E000409C1 /* ActorsBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				5CD7E8A72C3222FE000409C1 /* GlobalActorBootcamp.swift */,
 				5CD7E8972C320E8E000409C1 /* ActorsBootcampApp.swift */,
 				5CD7E8992C320E8E000409C1 /* ContentView.swift */,
 				5CD7E89B2C320E8F000409C1 /* Assets.xcassets */,
 				5CD7E89D2C320E8F000409C1 /* Preview Content */,
+				5CD7E8A52C320EE0000409C1 /* ActorsBootcamp.swift */,
+				5CF119022C33460B008C0877 /* SendableBootcamp.swift */,
 			);
 			path = ActorsBootcamp;
 			sourceTree = "<group>";
@@ -139,6 +178,19 @@
 			files = (
 				5CD7E89A2C320E8E000409C1 /* ContentView.swift in Sources */,
 				5CD7E8982C320E8E000409C1 /* ActorsBootcampApp.swift in Sources */,
+				5CD7E8A62C320EE0000409C1 /* ActorsBootcamp.swift in Sources */,
+				5C1E11F92C38CAE700EA6EC4 /* ObservableBootcamp.swift in Sources */,
+				5CF119072C3480EA008C0877 /* StrongSelfBootcamp.swift in Sources */,
+				5CF1190B2C348EE1008C0877 /* MVVMBootcamp.swift in Sources */,
+				5CD7E8A82C3222FE000409C1 /* GlobalActorBootcamp.swift in Sources */,
+				5CF1190F2C3527DA008C0877 /* SearchableBootcamp.swift in Sources */,
+				5CF119052C33609F008C0877 /* AsyncPublisherBootcamp.swift in Sources */,
+				5CF119092C348ED8008C0877 /* MVVMBootcamp.metal in Sources */,
+				5C1E11F52C38A98F00EA6EC4 /* PhotoPickerBootcamp.swift in Sources */,
+				5C1E11F72C38B7B800EA6EC4 /* AsyncStreamBootcamp.swift in Sources */,
+				5CC0B2252C3F01D700B4DE5D /* LikeButtonView.swift in Sources */,
+				5CF1190D2C349958008C0877 /* RefreshableBootcamp.swift in Sources */,
+				5CF119032C33460B008C0877 /* SendableBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

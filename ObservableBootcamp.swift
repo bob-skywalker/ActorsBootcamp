@@ -7,9 +7,36 @@
 
 import SwiftUI
 
+
+actor TitleDataBase {
+    func getNewTitle() -> String {
+        "Some New Title"
+    }
+}
+
+@Observable
+final class ObservableBootcampViewModel: ObservableObject {
+    var title: String =  ""
+    @ObservationIgnored let database = TitleDataBase()
+    
+    func updateTitle() async {
+        DispatchQueue.main.async {
+            Task {
+                self.title = await self.database.getNewTitle()
+                print(Thread.current)
+            }
+        }
+    }
+}
+
 struct ObservableBootcamp: View {
+    @State private var vm = ObservableBootcampViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(vm.title)
+            .task {
+                await vm.updateTitle()
+            }
     }
 }
 
