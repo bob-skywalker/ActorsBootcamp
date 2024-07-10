@@ -7,9 +7,50 @@
 
 import SwiftUI
 
+final class RefreshableDataService {
+    func getData() async throws -> [String]  {
+        try await Task.sleep(nanoseconds: 2_000_000_000)
+        return ["Apple", "Orange", "Banana"].shuffled()
+    }
+}
+
+@MainActor
+final class RefreshableBootcampViewModel: ObservableObject {
+    @Published private(set) var items: [String] = []
+    let manager = RefreshableDataService()
+    
+    func loadData() async {
+        do {
+            items = try await manager.getData()
+        } catch {
+            print(error)
+        }
+    }
+}
+
 struct RefreshableBootcamp: View {
+    @StateObject private var vm = RefreshableBootcampViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ScrollView {
+                VStack {
+                    ForEach(vm.items, id:\.self) {
+                        Text($0)
+                    }
+                }
+            }
+            .navigationTitle("Refreshable")
+        }
+        .onAppear(perform: {
+            Task {
+                await vm.loadData()
+            }
+        })
+        .refreshable {
+            await vm.loadData()
+            
+        }
     }
 }
 

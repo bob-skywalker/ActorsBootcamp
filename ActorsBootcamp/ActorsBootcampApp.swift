@@ -11,7 +11,7 @@ import SwiftUI
 struct ActorsBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ObservableBootcamp()
         }
     }
 }
