@@ -10,6 +10,9 @@ import SwiftUI
 struct LikeButtonView: View {
     var body: some View {
         Text("Change Heart Icon!")
+            .onAppear(perform: {
+                print("You Tapped Me!")
+            })
     }
 }
 
