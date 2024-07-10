@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LikeButtonView: View {
     var body: some View {
-        Text("ABC_Heart_ICON")
+        Text("Change Heart Icon!")
     }
 }
 
