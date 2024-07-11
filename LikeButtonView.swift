@@ -10,9 +10,7 @@ import SwiftUI
 struct LikeButtonView: View {
     var body: some View {
         VStack{
-            ForEach(0..<5) { _ in
-                Text("Button Text")
-            }
+            Text("Got rid of for loop!")
         }
             .onAppear(perform: {
                 print("You Tapped Me!")
