@@ -15,13 +15,7 @@ struct Beer: Codable, Identifiable {
 
 import Foundation
 
-func printWords() {
-    print("Hello, World!")
-}
 
-func printAnotherWords() {
-    print("Hello, Again World!")
-}
 
 func fetchBeer() {
     guard let url = URL(string: "https://api.sampleapis.com/coffee/hot") else { return }
