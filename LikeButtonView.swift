@@ -11,7 +11,7 @@ struct LikeButtonView: View {
     var body: some View {
         VStack{
             ForEach(0..<5) { _ in
-                Text("Button Text")
+                Text("Look at this")
             }
         }
             .onAppear(perform: {
