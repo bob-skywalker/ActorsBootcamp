@@ -12,6 +12,7 @@ struct LikeButtonView: View {
         Text("Change Heart Icon!")
             .onAppear(perform: {
                 print("You Tapped Me!")
+                print("Second Message!")
             })
     }
 }
