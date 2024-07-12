@@ -15,6 +15,10 @@ struct Beer: Codable, Identifiable {
 
 import Foundation
 
+func printMyFunc() {
+    print("Fetch API!")
+}
+
 func fetchBeer() {
     guard let url = URL(string: "https://api.sampleapis.com/coffee/hot") else { return }
     
