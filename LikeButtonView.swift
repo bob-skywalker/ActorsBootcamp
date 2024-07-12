@@ -9,9 +9,7 @@ import SwiftUI
 
 struct LikeButtonView: View {
     var body: some View {
-        VStack{
-            Text("Hello, Bro!")
-        }
+        Text("Change Heart Icon!")
             .onAppear(perform: {
                 print("You Tapped Me!")
             })
