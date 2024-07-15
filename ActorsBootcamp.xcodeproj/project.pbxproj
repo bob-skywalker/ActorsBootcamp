@@ -11,6 +11,7 @@
 		5C1E11F72C38B7B800EA6EC4 /* AsyncStreamBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E11F62C38B7B800EA6EC4 /* AsyncStreamBootcamp.swift */; };
 		5C1E11F92C38CAE700EA6EC4 /* ObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E11F82C38CAE700EA6EC4 /* ObservableBootcamp.swift */; };
 		5C8ACBEB2C3F118900DF16BA /* FetchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8ACBEA2C3F118900DF16BA /* FetchAPI.swift */; };
+		5CA419612C45B97E00C3E213 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA419602C45B97E00C3E213 /* ProfileView.swift */; };
 		5CC0B2252C3F01D700B4DE5D /* LikeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0B2242C3F01D700B4DE5D /* LikeButtonView.swift */; };
 		5CD7E8982C320E8E000409C1 /* ActorsBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7E8972C320E8E000409C1 /* ActorsBootcampApp.swift */; };
 		5CD7E89A2C320E8E000409C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7E8992C320E8E000409C1 /* ContentView.swift */; };
@@ -32,6 +33,7 @@
 		5C1E11F62C38B7B800EA6EC4 /* AsyncStreamBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStreamBootcamp.swift; sourceTree = "<group>"; };
 		5C1E11F82C38CAE700EA6EC4 /* ObservableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBootcamp.swift; sourceTree = "<group>"; };
 		5C8ACBEA2C3F118900DF16BA /* FetchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAPI.swift; sourceTree = "<group>"; };
+		5CA419602C45B97E00C3E213 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		5CC0B2242C3F01D700B4DE5D /* LikeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonView.swift; sourceTree = "<group>"; };
 		5CD7E8942C320E8E000409C1 /* ActorsBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActorsBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD7E8972C320E8E000409C1 /* ActorsBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsBootcampApp.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				5C8ACBEA2C3F118900DF16BA /* FetchAPI.swift */,
 				5CC0B2242C3F01D700B4DE5D /* LikeButtonView.swift */,
+				5CA419602C45B97E00C3E213 /* ProfileView.swift */,
 				5C1E11F42C38A98F00EA6EC4 /* PhotoPickerBootcamp.swift */,
 				5C1E11F62C38B7B800EA6EC4 /* AsyncStreamBootcamp.swift */,
 				5C1E11F82C38CAE700EA6EC4 /* ObservableBootcamp.swift */,
@@ -188,6 +191,7 @@
 				5CD7E8A82C3222FE000409C1 /* GlobalActorBootcamp.swift in Sources */,
 				5CF1190F2C3527DA008C0877 /* SearchableBootcamp.swift in Sources */,
 				5CF119052C33609F008C0877 /* AsyncPublisherBootcamp.swift in Sources */,
+				5CA419612C45B97E00C3E213 /* ProfileView.swift in Sources */,
 				5CF119092C348ED8008C0877 /* MVVMBootcamp.metal in Sources */,
 				5C1E11F52C38A98F00EA6EC4 /* PhotoPickerBootcamp.swift in Sources */,
 				5C1E11F72C38B7B800EA6EC4 /* AsyncStreamBootcamp.swift in Sources */,
