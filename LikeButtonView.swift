@@ -13,6 +13,7 @@ struct LikeButtonView: View {
             .onAppear(perform: {
                 print("You Tapped Me!")
                 print("Second Message!")
+                print("Ok just added something new..")
             })
     }
 }
